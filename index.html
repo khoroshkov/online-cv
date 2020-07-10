@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
@@ -16,12 +16,14 @@
   <body>
     <section class="showcase">
       <div class="video-container">
-        <video autoplay loop>
+        <video autoplay muted loop>
           <source
-            src="./video/programmer-coding-at-night_720.mp4"
+            src="./video/programmer-coding-at-night_720.webm"
+            type="video/webm"
+          />
+          <source
+            src="./video/programmer-coding-at-night_compressed.mp4"
             type="video/mp4"
-            autoplay
-            loop
           />
         </video>
       </div>
